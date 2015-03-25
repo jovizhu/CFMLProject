@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-15 "http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#"
+     xml:base="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-15="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#hasCFD -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-15;hasCFD">
+        <rdfs:range rdf:resource="&untitled-ontology-15;CFD"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-15;Facility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#performAt -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-15;performAt">
+        <rdfs:range rdf:resource="&untitled-ontology-15;Facility"/>
+        <rdfs:domain rdf:resource="&untitled-ontology-15;Service"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#CFD -->
+
+    <owl:Class rdf:about="&untitled-ontology-15;CFD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#Facility -->
+
+    <owl:Class rdf:about="&untitled-ontology-15;Facility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#Service -->
+
+    <owl:Class rdf:about="&untitled-ontology-15;Service"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#InventoryChecking -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-15;InventoryChecking">
+        <rdf:type rdf:resource="&untitled-ontology-15;Service"/>
+        <performAt rdf:resource="&untitled-ontology-15;OfficeBuilding"/>
+        <performAt rdf:resource="&untitled-ontology-15;StorageBuilding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#LEMSS -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-15;LEMSS">
+        <rdf:type rdf:resource="&untitled-ontology-15;CFD"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#OfficeBuilding -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-15;OfficeBuilding">
+        <rdf:type rdf:resource="&untitled-ontology-15;Facility"/>
+        <hasCFD rdf:resource="&untitled-ontology-15;LEMSS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#OrderProcessing -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-15;OrderProcessing">
+        <rdf:type rdf:resource="&untitled-ontology-15;Service"/>
+        <performAt rdf:resource="&untitled-ontology-15;OfficeBuilding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#Scheduling -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-15;Scheduling">
+        <rdf:type rdf:resource="&untitled-ontology-15;Service"/>
+        <performAt rdf:resource="&untitled-ontology-15;OfficeBuilding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#StorageBuilding -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-15;StorageBuilding">
+        <rdf:type rdf:resource="&untitled-ontology-15;Facility"/>
+        <hasCFD rdf:resource="&untitled-ontology-15;LEMSS"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
