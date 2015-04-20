@@ -113,6 +113,9 @@
         <DataProperty IRI="#quantity"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Analytics"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ComputationalMachine"/>
     </Declaration>
     <Declaration>
@@ -205,6 +208,10 @@
         <Class IRI="#Service"/>
     </SubClassOf>
     <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#Analytics"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Equipment"/>
         <NamedIndividual IRI="#ComputationalMachine"/>
     </ClassAssertion>
@@ -284,6 +291,16 @@
         <Class IRI="#Harddrive"/>
         <NamedIndividual IRI="#seagateHDD"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#Analytics"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#Analytics"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasSCF"/>
         <NamedIndividual IRI="#Delivery"/>

@@ -15,6 +15,7 @@
     </bpmn2:task>
     <bpmn2:task id="Task_3" name="Delivery">
       <bpmn2:incoming>SequenceFlow_6</bpmn2:incoming>
+      <bpmn2:incoming>SequenceFlow_5</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_10</bpmn2:outgoing>
     </bpmn2:task>
     <bpmn2:sequenceFlow id="SequenceFlow_3" sourceRef="Task_2" targetRef="Task_4"/>
@@ -31,8 +32,15 @@
     <bpmn2:task id="Task_1" name="OrderProcessing">
       <bpmn2:incoming>SequenceFlow_1</bpmn2:incoming>
       <bpmn2:outgoing>SequenceFlow_2</bpmn2:outgoing>
+      <bpmn2:outgoing>SequenceFlow_7</bpmn2:outgoing>
     </bpmn2:task>
     <bpmn2:sequenceFlow id="SequenceFlow_2" sourceRef="Task_1" targetRef="Task_2"/>
+    <bpmn2:task id="Task_6" name="Analytics">
+      <bpmn2:incoming>SequenceFlow_7</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_5</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="SequenceFlow_5" sourceRef="Task_6" targetRef="Task_3"/>
+    <bpmn2:sequenceFlow id="SequenceFlow_7" sourceRef="Task_1" targetRef="Task_6"/>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
@@ -56,6 +64,9 @@
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="BPMNShape_Task_4" bpmnElement="Task_1">
         <dc:Bounds height="50.0" width="110.0" x="153.0" y="50.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_Task_5" bpmnElement="Task_6">
+        <dc:Bounds height="50.0" width="110.0" x="450.0" y="51.0"/>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_5" bpmnElement="SequenceFlow_1" sourceElement="BPMNShape_StartEvent_2" targetElement="BPMNShape_Task_4">
         <di:waypoint xsi:type="dc:Point" x="86.0" y="75.0"/>
@@ -92,6 +103,18 @@
         <di:waypoint xsi:type="dc:Point" x="787.0" y="165.0"/>
         <di:waypoint xsi:type="dc:Point" x="787.0" y="165.0"/>
         <di:waypoint xsi:type="dc:Point" x="820.0" y="165.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_3" bpmnElement="SequenceFlow_5" sourceElement="BPMNShape_Task_5" targetElement="BPMNShape_Task_6">
+        <di:waypoint xsi:type="dc:Point" x="560.0" y="76.0"/>
+        <di:waypoint xsi:type="dc:Point" x="600.0" y="76.0"/>
+        <di:waypoint xsi:type="dc:Point" x="600.0" y="165.0"/>
+        <di:waypoint xsi:type="dc:Point" x="651.0" y="165.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_4" bpmnElement="SequenceFlow_7" sourceElement="BPMNShape_Task_4" targetElement="BPMNShape_Task_5">
+        <di:waypoint xsi:type="dc:Point" x="263.0" y="75.0"/>
+        <di:waypoint xsi:type="dc:Point" x="347.0" y="75.0"/>
+        <di:waypoint xsi:type="dc:Point" x="347.0" y="76.0"/>
+        <di:waypoint xsi:type="dc:Point" x="450.0" y="76.0"/>
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

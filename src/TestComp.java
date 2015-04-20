@@ -60,6 +60,7 @@ public class TestComp {
 		ArrayList<ProcessNode> services = readBPMNSpec("testingServices.bpmn2");
 		ProcessNode ss = null; // our starting node
 		for(ProcessNode a: services){
+			//System.out.println(a);
 			if(a.getID().compareTo("StartEvent_1") == 0){
 				ss = a; //start node is a
 			}
@@ -98,6 +99,12 @@ public class TestComp {
 						break;
 					}
 				}
+			}
+			if(thisService == null){
+				ss = wf.next();
+				continue;
+				//System.out.println("Workflow '" + ss.getName()+  " was not found in ontology." );
+				//return;
 			}
 			if(!prologMode)
 				System.out.println("----------------\nService: " + thisService.getOwlIndividual().getIRI().getFragment()+ "\n----------------");
