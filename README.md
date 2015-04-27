@@ -17,3 +17,4 @@ In our example we have `Manufacturing` as a `mService` with `CFLabel` of `4343`
 ###known problems:
 - duplication of processes that are children of two separate nodes (I.E. Two services have a shared child service). this is not a huge problem since prolog ignores duplications anyways.
 - potentially some issues with workflow interpretation. Only a few simple cases were tested.
+- prolog is just in the terminal, it's not saved to a seprate file or ran.
