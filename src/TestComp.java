@@ -26,6 +26,16 @@ import org.w3c.dom.Element;
 import apa.*;
 import apa.impl.DefaultCPU;
 
+//known problems:
+//	- duplication of processes that are children of two separate nodes (I.E. Two services have a shared child service)
+//    this is not a huge problem since prolog ignores duplications anyways.
+//
+//  - 
+//
+//
+//
+
+
 public class TestComp {
 	final static String OWL_FILE = "facility2.owl";
 	final static String BPMN_FILE = "testingServices.bpmn2";
