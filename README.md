@@ -1,6 +1,12 @@
 # CFMLProject
 Simplified implementation for a CFL-Ontology Model for Carbon Footprint Reasoning
 
+# Realted Papers
+Toward Ontology and Service Paradigm for Enhanced Carbon Footprint Management and Labeling
+  http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6649591
+A CFL-ontology model for carbon footprint reasoning
+  http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7050810
+
 ##Things to note for the program
 
 Main program is in CFMLReasoning.java
