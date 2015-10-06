@@ -4,7 +4,6 @@ Simplified implementation for a CFL-Ontology Model for Carbon Footprint Reasonin
 # Realted Papers
 Toward Ontology and Service Paradigm for Enhanced Carbon Footprint Management and Labeling
   http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6649591
-  
 A CFL-ontology model for carbon footprint reasoning
   http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7050810
 
