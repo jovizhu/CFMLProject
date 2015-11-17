@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1427130230705" name="http://www.semanticweb.org/james/ontologies/2014/11/untitled-ontology-4" uri="computer.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1427130230705" name="duplicate:http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15" uri="facility.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1427130230705" name="duplicate:http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15" uri="facility2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1433736305188" name="http://www.semanticweb.org/james/ontologies/2014/11/untitled-ontology-4" uri="computer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1433736305188" name="duplicate:http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15" uri="facility.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1433736305188" name="duplicate:http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15" uri="facility2.owl"/>
     </group>
 </catalog>

@@ -1,6 +1,8 @@
 
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -37,9 +39,23 @@ import apa.impl.DefaultCPU;
 
 
 public class TestComp {
-	final static String OWL_FILE = "facility2.owl";
-	final static String BPMN_FILE = "testingServices.bpmn2";
+	
+	 static String OWL_FILE = "facility2.owl";
+	 static String BPMN_FILE = "testingServices.bpmn2";
+	 static String PROLOG_FILE = "output.pl";
+	 
 	public static void main(String[] args) throws Exception {
+		
+		if(args.length ==0 ){
+			System.out.println(" TestComp facility2 testingServices output");
+		}else if(args.length < 3){
+			System.out.println("Usage TestComp owlfile bpmnfile out_put");
+		}else if(args.length == 3){
+			OWL_FILE = args[0];
+			BPMN_FILE = args[1];
+			PROLOG_FILE= args[2];
+		}
+		
 		
 		OWLOntologyManager owlm = OWLManager.createOWLOntologyManager();
 		File owlFile = new File(OWL_FILE);
@@ -256,6 +272,27 @@ public class TestComp {
 		System.out.println("get_CF([FirstMFL|LastMFL], CFmfl) :-\n\thascflabel(FirstMFL, CFfirst),\n\thasextendedquantity(FirstMFL, Qfirst),\n\tget_CF(LastMFL, CFLast),\n\tCFmfl is CFfirst * Qfirst + CFLast.");
 		
 		
+		// output to a file added by jovi Nov 17, 2015
+		File file = new File(PROLOG_FILE);
+		if (!file.exists()) {
+			file.createNewFile();
+		}
+
+		FileWriter fw = new FileWriter(file);
+		BufferedWriter bw = new BufferedWriter(fw);
+		bw.write(prologCode.toLowerCase());
+		bw.write("hasextendedquantity(X, Y) :- instanceof(A, X), hasquantity(A, Y).\n");
+		bw.write("hosts(X,Y) :- performedat(Y,X).\n");
+		
+		//from the paper
+		bw.write("carbon(Obj, CF) :- hascflabel(Obj, CF).\n");
+		bw.write("carbon(Obj, CF) :- producedby(Obj, PS),\n\thascflabel(PS, CFps),\n\tmflist(Obj, MFL),\n\tget_CF(MFL, CFmfl),\n\tCF is CFps + CFmfl.\n");
+		bw.write("get_CF([], 0).\n");
+		bw.write("get_CF([FirstMFL|LastMFL], CFmfl) :-\n\thascflabel(FirstMFL, CFfirst),\n\thasextendedquantity(FirstMFL, Qfirst),\n\tget_CF(LastMFL, CFLast),\n\tCFmfl is CFfirst * Qfirst + CFLast.\n");
+		
+		bw.close();
+
+		System.out.println("Done");
 		
 	}
 	
