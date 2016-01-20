@@ -1,0 +1,816 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15">
+    <Prefix name="" IRI="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-15" IRI="http://www.semanticweb.org/james/ontologies/2015/0/untitled-ontology-15#"/>
+    <Declaration>
+        <NamedIndividual IRI="#mInventoryChecking"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCFD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WCF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Harddrive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#host"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manufacturing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mScheduling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ComputationalMachine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Product"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#microcfd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InventoryChecking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delivery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intelProcessor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SCF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#producedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CFD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Facility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#energyCF"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#quantity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mAnalytics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gamma_Ray_Ionizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mDelivery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performAt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHolisticService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WCF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#seagateHDD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OrderProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SCF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#asusMotherboard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CFLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analytics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energyCF"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEnergyCF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LEMSS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#madeFrom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energyData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motherboard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMicroService"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Case"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSCF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mOrderProcessing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#energySource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicroCFD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StorageBuilding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Scheduling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hyperionRam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#computer_production"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Factory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mManufacturing"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Case"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Harddrive"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motherboard"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#energyData"/>
+        <Class IRI="#energyCF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#energySource"/>
+        <Class IRI="#energyCF"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#Analytics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Equipment"/>
+        <NamedIndividual IRI="#ComputationalMachine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#Delivery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facility"/>
+        <NamedIndividual IRI="#Factory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Equipment"/>
+        <NamedIndividual IRI="#Gamma_Ray_Ionizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CFD"/>
+        <NamedIndividual IRI="#LEMSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facility"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#OrderProcessing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SCF"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#Scheduling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Facility"/>
+        <NamedIndividual IRI="#StorageBuilding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WCF"/>
+        <NamedIndividual IRI="#WCF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Computer"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Case"/>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Motherboard"/>
+        <NamedIndividual IRI="#asusMotherboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#asusMotherboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#computer_production"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#energyCF"/>
+        <NamedIndividual IRI="#energyCF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Memory"/>
+        <NamedIndividual IRI="#hyperionRam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#hyperionRam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CPU"/>
+        <NamedIndividual IRI="#intelProcessor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#intelProcessor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#mAnalytics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#mDelivery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#mInventoryChecking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#mManufacturing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#mOrderProcessing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mService"/>
+        <NamedIndividual IRI="#mScheduling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MicroCFD"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Harddrive"/>
+        <NamedIndividual IRI="#seagateHDD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Product"/>
+        <NamedIndividual IRI="#seagateHDD"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <NamedIndividual IRI="#Analytics"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#Analytics"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#Analytics"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCFD"/>
+        <NamedIndividual IRI="#ComputationalMachine"/>
+        <NamedIndividual IRI="#LEMSS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <NamedIndividual IRI="#Delivery"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#Delivery"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#Delivery"/>
+        <NamedIndividual IRI="#StorageBuilding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCFD"/>
+        <NamedIndividual IRI="#Factory"/>
+        <NamedIndividual IRI="#LEMSS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#host"/>
+        <NamedIndividual IRI="#Factory"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCFD"/>
+        <NamedIndividual IRI="#Gamma_Ray_Ionizer"/>
+        <NamedIndividual IRI="#LEMSS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+        <NamedIndividual IRI="#StorageBuilding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+        <NamedIndividual IRI="#Factory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#produces"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+        <NamedIndividual IRI="#ComputationalMachine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+        <NamedIndividual IRI="#Gamma_Ray_Ionizer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCFD"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+        <NamedIndividual IRI="#LEMSS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasEnergyCF"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+        <NamedIndividual IRI="#energyCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#host"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#host"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+        <NamedIndividual IRI="#OrderProcessing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#host"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+        <NamedIndividual IRI="#Scheduling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <NamedIndividual IRI="#OrderProcessing"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#OrderProcessing"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#OrderProcessing"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <NamedIndividual IRI="#Scheduling"/>
+        <NamedIndividual IRI="#microcfd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasSCF"/>
+        <NamedIndividual IRI="#Scheduling"/>
+        <NamedIndividual IRI="#SCF"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#performAt"/>
+        <NamedIndividual IRI="#Scheduling"/>
+        <NamedIndividual IRI="#OfficeBuilding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Scheduling"/>
+        <NamedIndividual IRI="#ComputationalMachine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Scheduling"/>
+        <NamedIndividual IRI="#Gamma_Ray_Ionizer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCFD"/>
+        <NamedIndividual IRI="#StorageBuilding"/>
+        <NamedIndividual IRI="#LEMSS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#host"/>
+        <NamedIndividual IRI="#StorageBuilding"/>
+        <NamedIndividual IRI="#Delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#host"/>
+        <NamedIndividual IRI="#StorageBuilding"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeFrom"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeFrom"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+        <NamedIndividual IRI="#asusMotherboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeFrom"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+        <NamedIndividual IRI="#hyperionRam"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeFrom"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+        <NamedIndividual IRI="#intelProcessor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#madeFrom"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+        <NamedIndividual IRI="#seagateHDD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#producedBy"/>
+        <NamedIndividual IRI="#WayRad_Computer_9000"/>
+        <NamedIndividual IRI="#computer_production"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <NamedIndividual IRI="#mAnalytics"/>
+        <NamedIndividual IRI="#Analytics"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <NamedIndividual IRI="#mDelivery"/>
+        <NamedIndividual IRI="#Delivery"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <NamedIndividual IRI="#mInventoryChecking"/>
+        <NamedIndividual IRI="#InventoryChecking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <NamedIndividual IRI="#mManufacturing"/>
+        <NamedIndividual IRI="#Manufacturing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <NamedIndividual IRI="#mOrderProcessing"/>
+        <NamedIndividual IRI="#OrderProcessing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <NamedIndividual IRI="#mScheduling"/>
+        <NamedIndividual IRI="#Scheduling"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">seriouslyItsAwesome</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#quantity"/>
+        <NamedIndividual IRI="#aReallyCoolCase"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#asusMotherboard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#asusMotherboard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mommyboard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#quantity"/>
+        <NamedIndividual IRI="#asusMotherboard"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#hyperionRam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#hyperionRam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gottaGoFast</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#quantity"/>
+        <NamedIndividual IRI="#hyperionRam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#intelProcessor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#intelProcessor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">i7000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#quantity"/>
+        <NamedIndividual IRI="#intelProcessor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#mAnalytics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#mDelivery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">731</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#microcfd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">aMicroCFD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#CFLabel"/>
+        <NamedIndividual IRI="#seagateHDD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#seagateHDD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">superHDD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#quantity"/>
+        <NamedIndividual IRI="#seagateHDD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCFD"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCFD"/>
+        <Class IRI="#Facility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEnergyCF"/>
+        <Class IRI="#Facility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <Class IRI="#mService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMicroService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSCF"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasService"/>
+        <Class IRI="#mService"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#host"/>
+        <Class IRI="#Facility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#madeFrom"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performAt"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#producedBy"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCFD"/>
+        <Class IRI="#CFD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEnergyCF"/>
+        <Class IRI="#energyCF"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHolisticService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMicroCFD"/>
+        <Class IRI="#MicroCFD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMicroService"/>
+        <Class IRI="#mService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSCF"/>
+        <Class IRI="#SCF"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasService"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#host"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#madeFrom"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performAt"/>
+        <Class IRI="#Facility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#producedBy"/>
+        <Class IRI="#mService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#produces"/>
+        <Class IRI="#Product"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
