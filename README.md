@@ -1,6 +1,11 @@
 # CFMLProject
 Simplified implementation for a CFL-Ontology Model for Carbon Footprint Reasoning
 
+Author:
+  Wei Zhu
+  Guang Zhou
+  Jamie Crisman
+  
 # Realted Papers
 Toward Ontology and Service Paradigm for Enhanced Carbon Footprint Management and Labeling
   http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6649591
