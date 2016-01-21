@@ -58,4 +58,26 @@ public class Workflow {
 		
 		return isThis || isThat;
 	}
+	
+
+	public static String createWorkflowFacts(Workflow wf,
+			String bpmn_procedure_name) {
+		String workflow_code = new String();
+		
+		workflow_code +=" \n%workflow node\n";
+		workflow_code +="mServiceList( "+bpmn_procedure_name.toLowerCase()+", [ ";
+		while(wf.hasNext()){
+			ProcessNode ss = wf.next();
+			String node_name = ss.getName();
+			if(node_name.compareTo("End") != 0)
+				workflow_code +=node_name.toLowerCase()+",";
+		}
+		workflow_code= workflow_code.substring(0, workflow_code.length()-1)+"]).\n";
+		
+		System.out.println(workflow_code);
+		
+		// TODO Auto-generated method stub
+		return workflow_code;
+		
+	}
 }
